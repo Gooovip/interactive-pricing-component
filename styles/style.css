@@ -14,4 +14,47 @@ body {
   height: 400px;
   background-color: #eaeefb;
   border-bottom-left-radius: 150px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: #413f3f;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+header p {
+  color: #858fad;
+  position: relative;
+  z-index: 3;
+}
+
+.circle-1 {
+  height: 130px;
+  width: 130px;
+  border: 1px solid #cdd7ee;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  bottom: 100px;
+  right: 10px;
+}
+
+.circle-2 {
+  height: 90px;
+  width: 90px;
+  border: 1px solid #cdd7ee;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  bottom: 250px;
+  left: 35px;
 }/*# sourceMappingURL=style.css.map */
